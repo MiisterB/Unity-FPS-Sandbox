@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject destroyedVersion;
+    [SerializeField] public float health;
+
+    public void TakeDamage(float amount)
     {
-        
+        health -= amount;
+        if(health <= 0f)
+        {
+            Destruction();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Destruction()
     {
-        
+        Instantiate(destroyedVersion, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 }
