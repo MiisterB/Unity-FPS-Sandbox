@@ -5,6 +5,8 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public GameObject destroyedVersion;
+    public GameObject explosionEffect;
+
     [SerializeField] public float health;
 
     public void TakeDamage(float amount)
@@ -18,7 +20,16 @@ public class Target : MonoBehaviour
 
     public void Destruction()
     {
-        Instantiate(destroyedVersion, transform.position, transform.rotation);
+        if(destroyedVersion != null)
+        {
+            Instantiate(destroyedVersion, transform.position, transform.rotation);
+        }
+        if(explosionEffect != null)
+        {
+            GameObject explosion = Instantiate(explosionEffect, transform.position, transform.rotation);
+            Destroy(explosion, 2.0f);
+        }
+        
         Destroy(gameObject);
     }
 }
