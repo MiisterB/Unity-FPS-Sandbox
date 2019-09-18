@@ -13,7 +13,6 @@ public class MovingObject : MonoBehaviour
     void Start()
     {
         transform.position = waypoints[waypointIndex].transform.position;
-
     }
 
     // Update is called once per frame
@@ -28,7 +27,6 @@ public class MovingObject : MonoBehaviour
         {
             MoveObject();
         }
-        
     }
 
     void MoveObject()
