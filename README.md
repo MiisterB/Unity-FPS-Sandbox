@@ -11,7 +11,17 @@ Right now the character :
 - Destroy crats whith weapons and grenandes.
 - See how much ammos remains in the equipped weapon.
 
-![alt text](https://github.com/SimonMoisan/Unity-FPS-Sandbox/blob/master/Screenshots/Screenshot1.PNG)
+![alt text](https://github.com/SimonMoisan/Unity-FPS-Sandbox/blob/master/Screenshots/Screenshot1-min.PNG)
+
+![alt text](https://github.com/SimonMoisan/Unity-FPS-Sandbox/blob/master/Screenshots/Screenshot2-min.PNG)
+
+![alt text](https://github.com/SimonMoisan/Unity-FPS-Sandbox/blob/master/Screenshots/Screenshot3-min.PNG)
+
+![alt text](https://github.com/SimonMoisan/Unity-FPS-Sandbox/blob/master/Screenshots/Screenshot4-min.PNG)
+
+![alt text](https://github.com/SimonMoisan/Unity-FPS-Sandbox/blob/master/Screenshots/Screenshot5-min.PNG)
+
+![alt text](https://github.com/SimonMoisan/Unity-FPS-Sandbox/blob/master/Screenshots/Screenshot6-min.PNG)
 
 ## About this Git :
 
