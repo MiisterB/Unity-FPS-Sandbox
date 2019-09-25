@@ -529,9 +529,9 @@ RectTransform:
   m_Father: {fileID: 664426015}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84.5, y: -90.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 82.5, y: 3.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905935486
@@ -651,22 +651,22 @@ PrefabInstance:
     - target: {fileID: 108000011465114116, guid: de0a1040bbb28b944be715c4bbc28d52,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0.40821788
+      value: 4.224573e-39
       objectReference: {fileID: 0}
     - target: {fileID: 108000011465114116, guid: de0a1040bbb28b944be715c4bbc28d52,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -0.23456968
+      value: 1.046938e-38
       objectReference: {fileID: 0}
     - target: {fileID: 108000011465114116, guid: de0a1040bbb28b944be715c4bbc28d52,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 0.10938163
+      value: 9.367362e-39
       objectReference: {fileID: 0}
     - target: {fileID: 108000011465114116, guid: de0a1040bbb28b944be715c4bbc28d52,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0.8754261
+      value: 1.0285727e-38
       objectReference: {fileID: 0}
     - target: {fileID: 108000010489813662, guid: de0a1040bbb28b944be715c4bbc28d52,
         type: 3}
